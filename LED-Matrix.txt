@@ -9,7 +9,7 @@ void setup() {
     pinMode(i, OUTPUT);
   }
 }
-/////////////////////////////////////////////////////////////////////////////////Effect 1
+//Effect 1
 void loop(){
 
 effect_1();
@@ -61,7 +61,7 @@ digitalWrite(i-1, LOW);
 delay(t1);
 }
 }
-/////////////////////////////////////////////////////////////////////////////////Effect 2
+//Effect 2
 void effect_2()
 {
 int count = 13; // keeps track of second LED movement
@@ -91,7 +91,7 @@ int count = 13; // keeps track of second LED movement
   }
 }
 
-////////////////////////////////////////////////////////////////////////////////Effect 3
+//Effect 3
 
 void effect_3()
 {
@@ -114,7 +114,7 @@ for(int i = 14; i>=2; i--){
   delay(t3);
 }
 }
-  ///////////////////////////////////////////////////////////////////////////Effect 4
+//Effect 4
 void effect_4()
 {
 for(int j = 2; j <= 13; j++){
@@ -137,7 +137,7 @@ for(int k = 15; k > 2; k--){
   delay(t2);
   }
 }
-//////////////////////////////////////////////////////////////////////////////Effect 5
+//Effect 5
   void effect_5()
 {
  for(int pin = 13; pin >= 2; pin--)
@@ -228,7 +228,7 @@ for(int k = 15; k > 2; k--){
   delay(t1);
     }
   }
-  /////////////////////////////////////////////////////////////////////////////Effect 6
+//Effect 6
 void effect_6()
 {
 for(int j=2; j<14; j++){
@@ -277,7 +277,7 @@ for(int k = 2; k<14; k++){
   digitalWrite(k, HIGH);
 } 
 }
-///////////////////////////////////////////////////////////////////////////////////Effect 7
+//Effect 7
 void effect_7()
 {
 for(int j=2; j<14; j++){
